@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Like You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Girls like you</h1>
+        
+        <input type="button" class="start-button" onclick="lancer()"
+        value="🎵 Lire les paroles">        
+        <input type="checkbox" id="playAnimation" style="display: none;">
+        
+        <audio id="musicPlayer">
+            <source src="maybe.mp3" type="audio/mpeg">
+        </audio>
+        
+        <div class="playing-indicator">🎶 Lecture en cours...</div>
+        
+        <div class="lyrics-container">
+            <div class="typing-line line-1">Maybe it's 6:45</div>
+            <div class="typing-line line-2">Maybe I'm barely alive</div>
+            <div class="typing-line line-3">Maybe you've taken my shit for the last time, yeah</div>
+            <div class="typing-line line-4">Maybe I know that I'm drunk</div>
+            <div class="typing-line line-5">Maybe I know you're the one</div>
+            <div class="typing-line line-6">Maybe you thinking it's better if you drive</div>
+            <div class="typing-line line-7">........Oh, 'cause girls like you run 'round with guys like me</div>
+            <div class="typing-line line-8">Til sun down when I come through</div>
+            <div class="typing-line line-9">I need a girl like you, yeah</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
